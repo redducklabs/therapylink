@@ -3,6 +3,8 @@ description: Report a bug or issue with TherapyLink
 title: "[Bug] "
 labels: ["bug", "beta-feedback"]
 assignees: []
+projects:
+  - "redducklabs/TherapyLink"
 body:
   - type: markdown
     attributes:

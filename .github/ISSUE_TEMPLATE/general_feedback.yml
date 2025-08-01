@@ -3,6 +3,8 @@ description: Share general feedback, comments, or suggestions about TherapyLink
 title: "[Feedback] "
 labels: ["feedback", "beta-feedback"]
 assignees: []
+projects:
+  - "redducklabs/TherapyLink"
 body:
   - type: markdown
     attributes:
