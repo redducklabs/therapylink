@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: TherapyLink Support
+    url: mailto:support@therapy-link.org
+    about: For account-specific issues or private concerns
+  - name: GitHub Discussions
+    url: https://github.com/redducklabs/therapylink/discussions
+    about: Ask questions and discuss features with the community
+  - name: Documentation
+    url: https://therapy-link.org/docs
+    about: Check our documentation for answers to common questions

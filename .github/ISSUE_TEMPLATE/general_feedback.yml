@@ -1,0 +1,61 @@
+name: General Feedback
+description: Share general feedback, comments, or suggestions about TherapyLink
+title: "[Feedback] "
+labels: ["feedback", "beta-feedback"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing your feedback! This form is automatically filled when submitting feedback through the TherapyLink application, but you can also use it directly.
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: Please share your thoughts, comments, or suggestions
+      placeholder: Tell us what's on your mind
+    validations:
+      required: true
+
+  - type: dropdown
+    id: feedback-category
+    attributes:
+      label: Feedback Category
+      description: What area does your feedback relate to?
+      options:
+        - User Interface
+        - Performance
+        - Documentation
+        - Workflow/Process
+        - Integration
+        - Security/Privacy
+        - Other
+    validations:
+      required: false
+
+  - type: dropdown
+    id: user-role
+    attributes:
+      label: Your Role
+      description: What is your role in using TherapyLink?
+      options:
+        - Service Manager
+        - School User
+        - Provider
+        - Administrator
+        - Other
+    validations:
+      required: false
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Any additional context that might help us understand your feedback
+      placeholder: |
+        - How long have you been using TherapyLink?
+        - What specific feature or area are you providing feedback on?
+        - Any other relevant information
+    validations:
+      required: false

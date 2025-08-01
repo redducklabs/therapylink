@@ -1,0 +1,73 @@
+name: Feature Request
+description: Suggest an idea or enhancement for TherapyLink
+title: "[Feature Request] "
+labels: ["enhancement", "beta-feedback"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a new feature! This form is automatically filled when submitting feedback through the TherapyLink application, but you can also use it directly.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Description
+      description: A clear and concise description of the feature you'd like to see
+      placeholder: Describe your feature idea
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem-statement
+    attributes:
+      label: Problem Statement
+      description: What problem does this feature solve?
+      placeholder: |
+        I'm always frustrated when...
+        Currently, I have to...
+        This would help me...
+    validations:
+      required: false
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: How would you like to see this implemented?
+      placeholder: Describe how you envision this feature working
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you considered any alternative solutions or features?
+      placeholder: List any alternative solutions you've thought about
+    validations:
+      required: false
+
+  - type: dropdown
+    id: user-impact
+    attributes:
+      label: User Impact
+      description: Who would benefit from this feature?
+      options:
+        - All users
+        - Service Managers
+        - School Users
+        - Providers
+        - Administrators
+      multiple: true
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context, mockups, or examples about the feature request here
+      placeholder: Any additional information that might help us understand your request
+    validations:
+      required: false
